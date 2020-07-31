@@ -24,7 +24,7 @@ WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('Object Repository/Page_Sign In/input_Sign in with your organizational acco_d4c899'), 'testautomation@VTV9R')
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_Sign In/input_Sign in with your organizational acco_04b8f7'), '1qaz!QAZ')
+WebUI.setText(findTestObject('Object Repository/Page_Sign In/input_Sign in with your organizational acco_04b8f7'), '1qaz!QAZ')
 
 WebUI.click(findTestObject('Object Repository/Page_Sign In/span_Sign in'))
 
