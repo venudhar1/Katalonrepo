@@ -3,12 +3,12 @@ trigger:
     include:
     - master
 stages:
-- stage: __default
+#- stage: __default
   jobs:
   - job: Job
     pool:
       #vmImage: windows-latest
-      name: 'VenuAgent'
+      name: 'Default'
     steps:
     - task: CmdLine@2
       displayName: Run a one-line script
