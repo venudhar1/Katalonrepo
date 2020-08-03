@@ -1,13 +1,17 @@
 # Starter pipeline
- 
+
 trigger:
 - master
  
 pool:
   vmImage: 'windows-latest'
   name: 'VenuAgent'
- 
+
 steps:
+- task: Npm@1
+  inputs:
+    command: 'install'  
+
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
  
