@@ -7,7 +7,8 @@ stages:
   jobs:
   - job: Job
     pool:
-      vmImage: windows-latest
+      #vmImage: windows-latest
+      name: 'Default'
     steps:
     - task: CmdLine@2
       displayName: Run a one-line script
