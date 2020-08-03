@@ -5,7 +5,7 @@ trigger:
  
 pool:
   #vmImage: 'windows-latest'
-  name: 'VenuAgent'
+  name: 'Default'
 
 steps:
 
