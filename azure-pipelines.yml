@@ -5,7 +5,7 @@ trigger:
  
 pool:
   vmImage: 'windows-latest'
-  #name:'Ravi_Katalon'
+  name:'VenuAgent'
  
 steps:
 - script: echo Hello, world!
