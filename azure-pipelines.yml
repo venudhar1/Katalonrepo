@@ -8,7 +8,7 @@ stages:
   - job: Job
     pool:
       #vmImage: windows-latest
-      name: 'Default'
+      name: 'VenuAgent'
     steps:
     - task: CmdLine@2
       displayName: Run a one-line script
